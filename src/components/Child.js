@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-export default function Child({updateHandler}){
+function Child({updateHandler}){
     return (
         <div className="child">
             <h1>Child Component</h1>
@@ -10,3 +10,4 @@ export default function Child({updateHandler}){
     );
 }
 
+export default Child;

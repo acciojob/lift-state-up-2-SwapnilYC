@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import Child from "./Child";
+
 export default function Parent(){
     let [inputValue, setInputValue] = useState("");
     function update(str){
